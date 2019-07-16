@@ -1,0 +1,11 @@
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\bin\Debug\netcoreapp2.2\SortingAndVisualization.deps.json
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\bin\Debug\netcoreapp2.2\SortingAndVisualization.runtimeconfig.json
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\bin\Debug\netcoreapp2.2\SortingAndVisualization.runtimeconfig.dev.json
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\bin\Debug\netcoreapp2.2\SortingAndVisualization.dll
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\bin\Debug\netcoreapp2.2\SortingAndVisualization.pdb
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\obj\Debug\netcoreapp2.2\SortingAndVisualization.csproj.CoreCompileInputs.cache
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\obj\Debug\netcoreapp2.2\SortingAndVisualization.AssemblyInfoInputs.cache
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\obj\Debug\netcoreapp2.2\SortingAndVisualization.AssemblyInfo.cs
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\obj\Debug\netcoreapp2.2\SortingAndVisualization.dll
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\obj\Debug\netcoreapp2.2\SortingAndVisualization.pdb
+C:\Users\E.ahmed\source\repos\SortingAndVisualization\SortingAndVisualization\obj\Debug\netcoreapp2.2\SortingAndVisualization.csprojAssemblyReference.cache
