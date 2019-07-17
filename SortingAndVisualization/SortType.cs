@@ -8,6 +8,7 @@ namespace SortingAndVisualization
     {
        BubbleSort,
        SelectionSort,
-       InsertionSort
+       InsertionSort,
+       MergeSort
     }
 }

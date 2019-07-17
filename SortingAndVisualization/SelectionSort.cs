@@ -19,7 +19,7 @@ namespace SortingAndVisualization
                 {
                     Common.Exchange(array, i, k);
                     Common.ColorPrint("Exchanged: ", ConsoleColor.Red);
-                    Common.ArrayColorPrint(array, i, k, ConsoleColor.Red);
+                    Common.ComparisonColorPrint(array, i, k, ConsoleColor.Red);
                 }
                 else
                     Common.ColorPrint("Not Exchanged", ConsoleColor.Green);
@@ -36,7 +36,7 @@ namespace SortingAndVisualization
                 Console.WriteLine($"\tInner Iteration {iteration}\n\tMin Position: {minPos}");
                 Console.Write("\t");
                 Thread.Sleep(2000);
-                Common.ArrayColorPrint(array, minPos, pos, ConsoleColor.Yellow);
+                Common.ComparisonColorPrint(array, minPos, pos, ConsoleColor.Yellow);
                 Thread.Sleep(2000);
                 Console.Write("\t");
 

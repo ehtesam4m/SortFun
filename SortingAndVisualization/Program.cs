@@ -8,16 +8,17 @@ namespace SortingAndVisualization
         {
             try
             {
+                
                 //Console.WriteLine("Please enter your comma separated integer array list. eg: 5,8,3");
                 //string arrayString = Console.ReadLine();
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                /*Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Yelow: Comparing");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Red: Exchanged");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Green: Not Exchanged\n");
-                Console.ResetColor();
-                string arrayString = "8,7,1,3,6,4";
+                Console.ResetColor();*/
+                string arrayString = "8,7,1,3,6,4,6";
                 string[] tokens = arrayString.Split(',');
                 int[] array = Array.ConvertAll(tokens, int.Parse);
                 Console.WriteLine("Select sort type. Enter one of the number from options");

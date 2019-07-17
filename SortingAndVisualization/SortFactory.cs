@@ -16,6 +16,8 @@ namespace SortingAndVisualization
                     return new SelectionSort();
                 case SortType.InsertionSort:
                     return new InsertionSort();
+                case SortType.MergeSort:
+                    return new MergeSort();
                 default:
                     return new BubbleSort();
             }

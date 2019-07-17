@@ -20,19 +20,19 @@ namespace SortingAndVisualization
                 {
                     Console.WriteLine($"\tInner Iteration {innerIteration}");
                     Console.Write("\t");
-                    Common.ArrayColorPrint(array, i, i- 1, ConsoleColor.Yellow);
+                    Common.ComparisonColorPrint(array, i, i- 1, ConsoleColor.Yellow);
                     Thread.Sleep(2000);
                     Console.Write("\t");
                     if (array[i] < array[i - 1])
                     {
                         Common.Exchange(array, i, i - 1);
-                        Common.ArrayColorPrint(array, i, i - 1, ConsoleColor.Red);
+                        Common.ComparisonColorPrint(array, i, i - 1, ConsoleColor.Red);
                         Thread.Sleep(2000);
                        
                     }
                     else
                     {
-                        Common.ArrayColorPrint(array, i, i - 1, ConsoleColor.Green);
+                        Common.ComparisonColorPrint(array, i, i - 1, ConsoleColor.Green);
                         Thread.Sleep(2000);
                         break;
                     }

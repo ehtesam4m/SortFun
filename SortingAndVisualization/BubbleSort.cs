@@ -21,18 +21,18 @@ namespace SortingAndVisualization
                     switched = false;
                     Console.WriteLine($"\tInner Iteration {i + 1}");
                     Console.Write("\t");
-                    Common.ArrayColorPrint(array, i, i + 1, ConsoleColor.Yellow);
+                    Common.ComparisonColorPrint(array, i, i + 1, ConsoleColor.Yellow);
                     Thread.Sleep(2000);
                     Console.Write("\t");
 
                     if (array[i] > array[i + 1])
                     {
                         Common.Exchange(array, i, i + 1);
-                        Common.ArrayColorPrint(array, i, i + 1, ConsoleColor.Red);
+                        Common.ComparisonColorPrint(array, i, i + 1, ConsoleColor.Red);
                         switched = true;
                     }
                     else
-                        Common.ArrayColorPrint(array, i, i + 1, ConsoleColor.Green);
+                        Common.ComparisonColorPrint(array, i, i + 1, ConsoleColor.Green);
                     Thread.Sleep(2000);
                 }
                 if (!switched)

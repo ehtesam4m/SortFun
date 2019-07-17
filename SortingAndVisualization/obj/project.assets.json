@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E.ahmed\\source\\repos\\SortingAndVisualization\\SortingAndVisualization\\SortingAndVisualization.csproj",
+      "projectUniqueName": "C:\\GitProjects\\SortFun\\SortingAndVisualization\\SortingAndVisualization.csproj",
       "projectName": "SortingAndVisualization",
-      "projectPath": "C:\\Users\\E.ahmed\\source\\repos\\SortingAndVisualization\\SortingAndVisualization\\SortingAndVisualization.csproj",
+      "projectPath": "C:\\GitProjects\\SortFun\\SortingAndVisualization\\SortingAndVisualization.csproj",
       "packagesPath": "C:\\Users\\E.ahmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E.ahmed\\source\\repos\\SortingAndVisualization\\SortingAndVisualization\\obj\\",
+      "outputPath": "C:\\GitProjects\\SortFun\\SortingAndVisualization\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

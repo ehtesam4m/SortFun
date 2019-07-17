@@ -11,7 +11,7 @@ namespace SortingAndVisualization
             (data[m], data[n]) = (data[n], data[m]);
         }
 
-        public static void ArrayColorPrint(int[] array, int index1, int index2, ConsoleColor color)
+        public static void ComparisonColorPrint(int[] array, int index1, int index2, ConsoleColor color)
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -34,6 +34,27 @@ namespace SortingAndVisualization
             Console.ResetColor();
         }
 
+        public static void DivisionColorPrint(int[] array, int leftIndex, int middleIndex, int rightIndex, ConsoleColor color1, ConsoleColor color2)
+        {
+            for (int i = 0; i < leftIndex; i++)
+                Console.Write($"{array[i]} ");
+            
+            for (int i = leftIndex; i <= middleIndex; i++)
+            {
+                Console.ForegroundColor = color1;
+                Console.Write($"{array[i]} ");
+            }
+            for (int i = middleIndex + 1; i <= rightIndex; i++)
+            {
+                Console.ForegroundColor = color2;
+                Console.Write($"{array[i]} ");
+            }
 
+            Console.ResetColor();
+            for (int i = rightIndex+1; i < array.Length; i++)
+                Console.Write($"{array[i]} ");
+
+            Console.Write("\n");
+        }
     }
 }
